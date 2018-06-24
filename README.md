@@ -13,12 +13,14 @@ We are not validating of the real latLng is correct or not. Just checking that i
 
 The json response contains the lat long details in 
 
+{code}
 "geometry" : {
             "location" : {
                "lat" : 37.422364,
                "lng" : -122.084364
             }
  }
+{code}
 
 [Source Directory](./src/main/java/com/qa/geocode/) 
 [Test Directory](./src/test/java/com/qa/geocode/) 
