@@ -1,7 +1,7 @@
 # Rest API
 REST API testing with Java or Python code is a critical piece of our test infrastructure. For reference, we will use public apis like google maps API to get details for any address, in json format.
  
-https://maps.googleapis.com/maps/api/geocode/json?address=1600+Amphitheatre+Parkway,+Mountain+View,+CA
+[Geocode - 1600+Amphitheatre+Parkway,+Mountain+View,+CA](https://maps.googleapis.com/maps/api/geocode/json?address=1600+Amphitheatre+Parkway,+Mountain+View,+CA)
 To make a call to this http endpoint with Java, you can use any library like the httpclient utilities in java. just search for them.
 
 You can explore ways to test this for latitude and longitude correctness.
