@@ -1,0 +1,45 @@
+# Eclipse
+.classpath
+.factorypath
+.project
+.settings/
+/application.yml
+target/
+logs/
+.metadata
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
+dependency-reduced-pom.xml
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Python
+*.py[cod]
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+sdist
+develop-eggs
+.installed.cfg
+lib
+lib64
+MANIFEST
+
+
