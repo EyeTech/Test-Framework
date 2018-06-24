@@ -23,6 +23,7 @@ The json response contains the lat long details in
 ```
 
 [Source Directory](./src/main/java/com/qa/geocode/) 
+
 [Test Directory](./src/test/java/com/qa/geocode/) 
 
 ## Address Mapping
@@ -51,10 +52,10 @@ Key to this is removing/not processing repeat elements in the same structure.
 
 Four DeDupe methods
 
-```getDeDupedList``` - Brute force, compares each element of both sets, does not remove repeat elements. Takes ~ 12 s to complete.
+1) ```getDeDupedList``` - Brute force, compares each element of both sets, does not remove repeat elements. Takes ~ 12 s to complete.
 
-```getDeDupedListDistinctAfter``` - Brute force, compares each element of both sets, removes repeat post dedupe repeat elements. Takes ~ 12 s to complete.
+2) ```getDeDupedListDistinctAfter``` - Brute force, compares each element of both sets, removes repeat elements post dedupe. Takes ~ 12 s to complete.
 
-```getDeDupedListDistinctBefore``` - Removes repeat pre dedupe repeat elements. Takes ~ 4 ms to complete.
+3) ```getDeDupedListDistinctBefore``` - Removes repeat elements pre dedupe. Takes ~ 4 ms to complete.
 
-```getDeDupedHashSet``` - Uses HashSet. Takes ~ 22 ms to complete.
+4) ```getDeDupedHashSet``` - Uses HashSet. Takes ~ 22 ms to complete.
